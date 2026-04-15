@@ -17,7 +17,7 @@ function createLoginTracker(userInfo){
     return "Login failed. Account locked due to too many failed login attempts."
   // If user has attempted login and failed but has not yet reached 3 attempts
   } else {
-    return `Attempt ${attemptCount}: Login failed.`;
+    return `Attempt ${attemptCount}: Login failed`;
   } 
  } 
 module.exports = {
